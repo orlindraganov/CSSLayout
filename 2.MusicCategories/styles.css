@@ -1,0 +1,64 @@
+main {
+    width: 400px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #EEEEEE;
+    padding: 14px;
+}
+h1 {
+    font-size: 1.3rem;
+    font-weight: normal;
+    line-height: 0.8rem;
+}
+div.Musician {
+    width: 366px;
+    border: 1px solid #999999;
+    background-color: white;
+    margin-bottom: 40px;
+    padding: 14px;
+    vertical-align: top;
+}
+div.ArticlePic {
+    vertical-align: top;
+    width: 136px;
+    height: 86px;
+    border: 1px solid #8D8B90;
+    display: inline-block;
+    margin-right: 14px;
+}
+div.ArticlePic img {
+    width: 136px;
+}
+div.ArticleText {
+    width: 210px;
+    display: inline-block;
+    padding: 0px;
+    margin: 0px;
+}
+div.ArticleText>a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: bolder;
+}
+div.Buttons {
+    float: right;
+    margin-top: 20px;
+}
+div.Buttons button:first-child {
+    width: 75px;
+    height: 25px;
+    color: white;
+    border: 1px solid #8D8B90;
+    text-align: right;
+    display: inline-block;
+    background-image: url(./img/buttonListen.png) 
+}
+div.Buttons button:last-child {
+    width: 62px;
+    height: 25px;
+    color: white;
+    border: 1px solid #8D8B90;
+    text-align: right;
+    display: inline-block;
+    background-image: url(./img/buttonAdd.png) 
+}
