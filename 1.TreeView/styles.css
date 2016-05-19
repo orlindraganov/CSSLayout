@@ -1,0 +1,26 @@
+ul {
+    list-style: none;
+    padding: 0px;
+    display: inline-block;
+    line-height: 1.3em;
+}
+a {
+    font-size: inherit;
+    text-decoration: inherit;
+    color: inherit;
+}
+ul.Sublist {
+    display: none;
+    padding-left: 0.5em;
+}
+ul.List>li:hover>a {
+    text-decoration: underline;
+}
+
+ul.List>li:hover>ul.Sublist {
+    display: block;
+}
+ul.Sublist>li {
+    text-decoration: none;
+    color: #888888;
+}
